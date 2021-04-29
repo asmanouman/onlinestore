@@ -1,0 +1,2 @@
+[Thu 29-04-2021 21:26:21] [Client : ::1] [URI : /onlinestore/wp-admin/plugins.php?action=activate&plugin=pie-register%2Fpie-register.php&plugin_status=all&paged=1&s&_wpnonce=c59b11d0f8] [error] Table 'store.swxqe_pieregister_lockdowns' doesn't exist [Function : pieOutputLoginForm] [Line : 313] [File : C:\xampp\htdocs\onlinestore\wp-content\plugins\pie-register\login_form.php]
+

@@ -5,3 +5,34 @@ Theme Author: Asma Nouman
 Template: divi
 Version: 1.0.0 
 */
+
+.et_contact_bottom_container {
+    margin-top: -6.5%;
+    margin-right: 303px;
+    float:right;
+
+}
+.footer.bottom-nav, .bottom-nav a, .bottom-nav li.current-menu-item a {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 100px;
+}
+#main-content {
+    background-color: bisque;
+}
+html.custom-background {
+    background-color: bisque;
+}
+body.custom-background {
+    background-color: bisque;
+}
+body+element.style {
+    padding-left: 167px;
+    background-color: white;
+    border-radius: 31%;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-left: 40;
+    margin-bottom: 0px;
+    padding-right: 40px;
+

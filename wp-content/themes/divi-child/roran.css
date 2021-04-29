@@ -1,0 +1,515 @@
+@fontface{
+	font-family:open-sans;
+	src:url(/fonts/OpenSans-Regular-webfont.woff2);
+}
+body{font-family:open-sans;}
+
+:root{
+	--gray:bcbcbc;
+	--lightgray:f0f0f0;
+	--textgray:#cecece;
+	--darkgray:#979797;
+	--roran-green:var(--roran-green);
+	--doegreen:#3da591;
+	--darkgreen:#2e8272;
+	--lightgreen:#62c5b2;
+	--footergray:#d8d8d8;
+}
+@media screen and (min-width:510px){
+	.formdaddy{width:auto}
+}
+a{text-decoration:none;color:#cecece;}
+a:hover	{color:black;}
+.one{
+	height:590px;
+	background-color:var(--roran-green,#39a38f);
+}
+.arrow{margin-left:50%;}
+.text{
+	color:white;
+	font-size:300%;
+	width:400px;
+	padding:100px;
+	
+}
+.text > h2{
+	font-size:43px;
+	font-weight:bold;
+	
+}
+.text > h2::before{
+	font-size:75px;
+	font-weight:bolder;
+	display:block;
+	content:"Roran.";
+	
+}
+.text h2::after{
+	font-size:35px;
+	font-weight:bold;
+	display:block;
+	content:"By LunarTemplates";
+}
+	
+.line{
+	height:0;
+	width:280px;
+	border-bottom:2px solid white;
+	padding-top:0px;
+}
+i{
+	font-size:50%;
+
+}
+.line1{
+	height:0;
+	width:120px;
+	margin-left:680px ;
+	margin-top:-40px;
+	margin-bottom:50px;
+	border-bottom:2px solid #cecece;
+    padding-top:10px;}
+.tilt{
+	
+	background-color:var(--darkgreen,#2e8272);
+	height:110px;
+	width:150px;
+	float:right;
+	transform:skewx(-50deg);
+	z-index:1;
+	position:absolute;
+	right:325px;
+	margin-top:120px;
+	
+}
+.textright{
+	float:right;
+	background-color:var(--darkgreen,#2e8272);
+	height:110px;
+	width:400px;
+	font-size:32px;
+	color:white;
+	z-index:2;
+	position:relative;
+    border-left:transform skew(50deg);
+	margin-top:120px;
+	}
+.textright:before{
+	position:absolute;
+	height:100%;
+	width:50px;
+	left:0;
+	border-left:50px solid transparent ;
+	border-bottom:80px solid #106148;
+}
+.header{
+	height:70px;
+	border:2px solid #cecece;
+	display:flex;
+	box-sizing:border-box;
+	color:#cecece;
+}
+.click{
+	margin-left:250px;
+	margin-top:-90px;
+	padding:120px;
+}
+.dot{
+	color:var(--roran-green,#39a38f);
+	
+}
+
+.header > h2{
+	padding:0 100px;
+	font-size:230%;
+	font-weight:bold;
+	color:black;
+}
+.header > h3{
+	display:inline-block;
+	padding:20px;
+}
+.header> h3:hover{color:black;}
+.two{
+	text-align:center;
+	color:#979797;
+	font-size:14px;
+}
+.two> h2{
+	text-align:center;
+	color:black;
+	font-size:350%;
+}
+.two > h2::after{
+	content:"Creative Studio";
+	display:block;
+	color:#979797;
+	text-align:center;
+	font-size:30px;
+}
+.rows{
+	margin-top:80px;
+	display:flex;
+	justify-content:center;
+	justify-content:space-evenly;
+	
+}
+.gspan
+{
+	color:#52ab90;
+}
+.card > p:first-of-type{
+	font-size:140%;
+	
+}
+.card{
+	width:210px;
+	text-align:center;
+	color:#979797;
+}
+
+.gray{
+	height:190px;
+	background-color:#f0f0f0;
+	display:flex;
+	justify-content:center;
+	font-size:200%;
+	padding:40px;
+	box-sizing:border-box;
+
+	
+}
+.gray ~ img{
+	height:60px;
+	padding-top:20px;
+
+	
+}
+.one1,.two2,.three3,.four4{
+	display:flex;
+	padding:10px;
+}
+.gray> h2{
+	font-size:150%;
+	color:39a38f;
+    text-align:center;
+	
+}
+.gray>.one1> h2::after{
+	content:"Empty cups";
+	color:gray;
+	display:block;
+	font-size:16px;
+	padding-left:20px;
+	padding-top:1px;
+}
+.gray>.two2> h2::after{
+	content:"Happy clients";
+	color:gray;
+	display:block;
+	font-size:16px;
+    padding-left:20px;
+}
+.gray>.three3> h2::after{
+	content:"BBQ meetings";
+	color:gray;
+	display:block;
+	font-size:16px;
+    padding-left:20px;
+}
+.gray>.four4> h2::after{
+	content:"Cocktail parties";
+	color:gray;
+	display:block;
+	font-size:16px;
+    padding-left:20px;
+}
+.green{
+	height:347px;
+	background-color:#39a38f;
+	text-align:center;
+	font-size:200%;
+	color:white;
+	padding:80px;
+}
+.line2{
+	height:0;
+	width:180px;
+	border-bottom:2px solid white;
+	padding-top:20px;
+	margin-left:570px;
+	
+}
+
+}
+.bold{font-weight:bold;}
+.logos{
+	padding:50px;
+	text-align:center;
+}
+.services{
+	display:flex;
+	text-align:center;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+	justify-content:space-around;
+	
+}
+ .services >h2::after{
+	content:"With Passion and Experience";
+	color:gray;
+	display:block;
+	font-weight:lighter;
+}
+.row{
+
+	display:flex;
+	align-items:rows;
+	justify-content:space-around;
+	
+	
+}
+.small> img{float:left;
+}
+.small{
+	width:300px;
+	padding:10px;
+}
+.line3{
+	height:0;
+	width:180px;
+	border-bottom:2px solid white;
+	padding-top:20px;
+    margin-left:500px;}
+.doe{
+	background-color:#3da591;
+	height:285px;
+	text-align:center;
+	padding:60px 150px;
+	color:white;
+}
+.quotes{font-size:100px;}
+.doe >span{
+	font-weight:bolder;
+}
+.meet{
+	height:200px;
+	text-align:center;
+}
+.meet > h2{
+	font-size:200%;
+}
+.meet > h2::after{
+	content:"They are really nice";
+	color:gray;
+	display:block;
+	font-size:20px;
+}
+.line4{
+	height:0;
+	width:130px;
+	border-bottom:2px solid gray;
+	padding-top:-5px;
+    margin-left:680px;}
+.entity{
+font-size:400%;
+color:#f0f0f0;
+margin-left:47%;
+margin-bottom:-20px;
+border-top:20ps solid #c7bebd;
+
+	
+}
+.lightgray{
+	
+	height:450px;
+	background-color:#f0f0f0;
+	display:flex;
+	justify-content:space-evenly;
+	padding:50px;
+}
+.cards{
+	height:280px;
+	width:400px;
+	background-color:#39a38f;
+}	
+.dots{
+color:#bcbcbc;
+font-size:500%;
+margin-left:-290px;
+}
+	
+.whitecard{
+	height:70px;
+	background-color:white;
+	border-bottom:10px solid var(--roran-green);
+	padding:20px 20px;
+}
+.whitecard >span {
+	display:block;
+	line-height:30px;
+}
+.whitecard >span:nth-child(2){color:gray;}	
+
+.aftercards{
+	height:300px;
+	background-color:white;
+	text-align:center;
+}
+.aftercards>span:hover{
+	color:black;
+}
+.aftercards > h2{font-size:150%;}
+.aftercards > h2::after{
+	content:"That is what we have been working on";
+	color:#c7bebd;
+	display:block;
+	font-size:25px;
+}
+.aftercards >span{
+	display:black;
+	padding:20px;
+	line-height:150px;
+	color:#c7bebd;
+}
+.multig{
+	display:flex;
+	height:500px;
+	flex-direction:rows;
+}
+.darkg{
+	background-color:var(--roran-green,#39a38f);
+	height:250px;
+	width:25vw;
+	
+}
+.darkgo{
+	background-color:#39a38f;
+	height:250px;
+	width:25vw;
+	text-align:center;
+	padding:80px;
+	box-sizing:border-box;
+	color:white;
+	
+}
+.lightg{
+	background-color:var(--lightgreen);
+	height:250px;
+	width:25vw;
+}
+.contact{
+	height:200px;
+	text-align:center;
+	padding:50px;
+	box-sizing:border-box;
+}
+.contact> h2{
+	font-weight:bold;
+	font-size:200%;
+
+}
+.contact > h2::after{
+	content:"We would really love to hear from you!";
+	color:gray;
+	display:block;
+	font-size:25px;
+	line-height:25px;
+	font-weight:lighter;
+}
+.rorangreen{
+	height:460px;
+	background-color:var(--roran-green,#39a38f);
+	text-align:center;
+	padding-top:50px;
+}
+.down-arrow {
+	display: inline-block;
+	position: relative;
+	background:white;
+	padding: 5px 0;
+	width: 200px;
+	text-align: center;
+
+}
+.down-arrow:after {
+	content: '';
+	display: block;  
+	position: absolute;
+	right: 40%;
+	top: 100%;
+	width: 0;
+	height: 0;
+	border-top: 20px solid white;
+	border-right:20px solid transparent;
+	border-bottom: 20 solid transparent;
+	border-left: 20px solid transparent;
+}
+.form{
+	height:660px;
+	width:50%;
+	background-color:white;
+	text-align:center;
+	padding:70px;
+	line-height:30px;
+	box-sizing:border-box;
+}
+label{
+	float:left;
+}
+.required{
+	color:#39a38f;
+	float:right;
+}
+.msg{
+	line-height:130px;
+}
+.form> button{
+	background-color:#39a38f;
+	color:white;
+	line-height:40px;
+	width:80px;
+	float:left;
+	margin-top:20px;
+}
+input{
+	width:100%;
+	line-height:40px;
+}
+.rightform{
+	height:660px;
+	width:40%;
+	background-color:white;
+	padding:60px;
+	box-sizing:border-box;
+}
+
+.inline{display:flex;padding:15px;}
+.formdaddy{
+	display:flex;
+	margin:-250px 180px;
+	background-color:f0f0f0;
+	position:absolute;
+	z-index:2;
+	width:80%;
+	
+}
+.secondlast{
+	height:500px;
+	background-color:#f0f0f0;
+	position:relative;
+	z-index:1;
+}
+footer{
+	height:65px;
+	background-color:#d9d5d5;
+	padding:40px;
+	box-sizing:border-box;
+	
+}
+.lastimg{
+	float:right;
+	margin-right:200px;}
+
+	

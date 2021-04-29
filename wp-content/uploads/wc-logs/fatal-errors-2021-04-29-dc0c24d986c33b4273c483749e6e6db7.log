@@ -1,0 +1,34 @@
+2021-04-29T00:02:57+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\xampp\htdocs\onlinestore\wp-content\themes\divi-child\asma.php on line 8
+
+2021-04-29T00:06:51+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\xampp\htdocs\onlinestore\wp-content\themes\divi-child\asma.php on line 9
+
+2021-04-29T00:21:05+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\xampp\htdocs\onlinestore\wp-content\themes\divi-child\asma.php on line 11
+
+2021-04-29T05:41:12+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\onlinestore\wp-content\themes\Divi\includes\builder\functions.php on line 9
+
+2021-04-29T06:32:39+00:00 CRITICAL Uncaught Error: Call to undefined function echo_get_stylesheet_directory_uri() in C:\xampp\htdocs\onlinestore\wp-content\themes\divi-child\asma.php:29
+Stack trace:
+#0 C:\xampp\htdocs\onlinestore\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\onlinestore\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinestore\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\onlinestore\wp-content\themes\divi-child\asma.php on line 29
+
+2021-04-29T06:36:13+00:00 CRITICAL Uncaught Error: Call to undefined function echo_get_stylesheet_directory_uri() in C:\xampp\htdocs\onlinestore\wp-content\themes\divi-child\asma.php:27
+Stack trace:
+#0 C:\xampp\htdocs\onlinestore\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\onlinestore\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinestore\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\onlinestore\wp-content\themes\divi-child\asma.php on line 27
+
+2021-04-29T06:38:09+00:00 CRITICAL Uncaught Error: Call to undefined function echo_get_stylesheet_directory_uri() in C:\xampp\htdocs\onlinestore\wp-content\themes\divi-child\asma.php:29
+Stack trace:
+#0 C:\xampp\htdocs\onlinestore\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\onlinestore\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinestore\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\onlinestore\wp-content\themes\divi-child\asma.php on line 29
+
+2021-04-29T07:01:06+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\onlinestore\wp-includes\Requests\Transport\cURL.php on line 163
+
